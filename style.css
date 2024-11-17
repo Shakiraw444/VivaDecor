@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px; 
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+.logo-image {
+    width: 177px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    text-decoration: none;
+    font-family: "Host Grotesk", sans-serif;
+    color: #1F1F1F;
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav a:hover {
+    color: green;
+}
+.signupbutton {
+    width: 176px;
+    height: 60px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #1F1F1F;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: "Host Grotesk", sans-serif;
+    cursor: pointer;
+}
+.signupbutton:hover {
+    background-color: green;
+}
+.interior {
+    width: 100%;
+    margin-top: 20px;
+}
+.interior-image {
+    width: 100%;
+    object-fit: contain;
+    padding: 30px 60px;
+}
+.services {
+    width: 100%;
+    margin-top: 20px;
+}
+.services-image {
+    width: 100%;
+    object-fit: contain;
+    padding: 30px 60px;
+}
+.section4 {
+    width: 100%;
+    margin-top: 20px;
+}
+.section4-image {
+    width: 100%;
+    object-fit: contain;
+    padding: 50px 60px;
+}
+.process {
+    width: 100%;
+    margin-top: 20px;
+}
+.process-image {
+    width: 100%;
+    object-fit: contain;
+    padding: 40px 60px;
+}
+.testimonials {
+    width: 100%;
+    margin-top: 20px;
+}
+.testimonials-image {
+    width: 100%;
+    object-fit: contain;
+    padding: 40px 60px;
+}
+.subscribe {
+    margin-top: 20px;
+    align-items: center;
+}
+.subscribe-image {
+    width: 100%;
+    padding: 40px 60px;
+}
+
